@@ -1,31 +1,32 @@
 {
-  "name": "my-react-todolist",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "enzyme": "^3.4.1",
-    "enzyme-adapter-react-16": "^1.2.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
-    "react-test-renderer": "^16.4.2",
-    "selenium-standalone": "^6.15.1",
-    "wdio-mocha-framework": "^0.6.2",
-    "wdio-selenium-standalone-service": "0.0.10",
-    "webdriverio": "^4.13.1"
-  }
+	"name": "my-react-todolist",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^16.4.2",
+		"react-dom": "^16.4.2",
+		"react-scripts": "1.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"e2e-tests-watch": "wdio wdio.conf.js --watch",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"chai": "^4.1.2",
+		"enzyme": "^3.4.1",
+		"enzyme-adapter-react-16": "^1.2.0",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-react": "^7.10.0",
+		"react-test-renderer": "^16.4.2",
+		"selenium-standalone": "^6.15.1",
+		"wdio-mocha-framework": "^0.6.2",
+		"wdio-selenium-standalone-service": "0.0.10",
+		"webdriverio": "^4.13.1"
+	}
 }

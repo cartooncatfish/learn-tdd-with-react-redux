@@ -18,5 +18,17 @@ describe('AddTodo component', () => {
 			const component = shallow(<AddTodo />);
 			expect(component.find('.todo-submit').length).toEqual(1);
 		});
+
+		it('Should call the submitTodo function when clicked', () => {
+			const submitMock = jest.fn();
+			const component = mount(<AddTodo submitTodo={submitMock} />);
+
+			expect(submitMock.mock.calls.length).toEqual(0);
+			component.find('form').simulate('submit');
+			expect(submitMock.mock.calls.length).toEqual(1);
+			// add this unmount function according to
+			// https://medium.com/capital-one-developers/unit-testing-behavior-of-react-components-with-test-driven-development-ae15b03a3689
+			component.unmount();
+		});
 	});
 });

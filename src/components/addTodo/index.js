@@ -27,8 +27,8 @@ const AddTodo = ({ submitTodo }) => {
 	);
 };
 
-// AddTodo.propTypes = {
-// 	submitTodo: PropTypes.func.isRequired,
-// };
+AddTodo.propTypes = {
+	submitTodo: PropTypes.func.isRequired,
+};
 
 export default AddTodo;

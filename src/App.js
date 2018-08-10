@@ -4,7 +4,7 @@ import AddTodo from './components/addTodo';
 const App = () => (
 	<div>
 		<h1>My App</h1>
-		<AddTodo />
+		<AddTodo submitTodo={() => {}} />
 	</div>
 );
 

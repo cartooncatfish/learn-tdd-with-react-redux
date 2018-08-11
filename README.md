@@ -15,3 +15,22 @@ It's test is easy to write, TDD will be applied to my future work!.
 -   [A guide to TDD a React/Redux TodoList App — Part 4](https://hackernoon.com/a-guide-to-tdd-a-react-redux-todolist-app-part-4-edb62e113c9b)
 
 -   [Unit Testing Behavior of React Components with Test-Driven Development](https://medium.com/capital-one-developers/unit-testing-behavior-of-react-components-with-test-driven-development-ae15b03a3689) - for the umount() function & the enzyme settings.
+
+**Running commands**
+
+-   Unit test(watch)
+    ```
+     npm test
+    ```
+-   Appliction server
+    ```
+     npm start
+    ```
+-   Selenium server
+    ```
+     npm run selenium-start
+    ```
+-   E2e test command
+    ```
+     npm run e2e-tests
+    ```
